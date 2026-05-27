@@ -52,9 +52,152 @@ nav:
   - Home: index.md
   - HLD:
       - Overview: hld/index.md
+      - Fundamentals:
+          - Databases:
+              - SQL: hld/fundamentals/databases/sql.md
+              - NoSQL: hld/fundamentals/databases/nosql.md
+              - Scaling: hld/fundamentals/databases/scaling.md
+              - Transactions: hld/fundamentals/databases/transactions.md
+          - Caching: hld/fundamentals/caching.md
+          - Load Balancing: hld/fundamentals/load-balancing.md
+          - CDN: hld/fundamentals/cdn.md
+          - Message Queues: hld/fundamentals/message-queues.md
+          - API Design: hld/fundamentals/api-design.md
+          - Microservices: hld/fundamentals/microservices.md
+          - Rate Limiting: hld/fundamentals/rate-limiting.md
+          - Networking: hld/fundamentals/networking.md
+          - Distributed Systems: hld/fundamentals/distributed-systems.md
+          - Data Processing: hld/fundamentals/data-processing.md
+          - Search & Indexing: hld/fundamentals/search-indexing.md
+          - Security: hld/fundamentals/security.md
+          - Monitoring: hld/fundamentals/monitoring.md
+          - Misc Patterns: hld/fundamentals/misc-patterns.md
+      - Problems:
+          - URL Shortener: hld/problems/url-shortener.md
+          - Pastebin: hld/problems/pastebin.md
+          - Instagram: hld/problems/instagram.md
+          - Twitter: hld/problems/twitter.md
+          - YouTube: hld/problems/youtube.md
+          - Netflix: hld/problems/netflix.md
+          - Uber: hld/problems/uber.md
+          - WhatsApp: hld/problems/whatsapp.md
+          - Dropbox: hld/problems/dropbox.md
+          - Rate Limiter: hld/problems/rate-limiter.md
+          - Web Crawler: hld/problems/web-crawler.md
+          - Notification System: hld/problems/notification-system.md
+          - Search Autocomplete: hld/problems/search-autocomplete.md
+          - Distributed Cache: hld/problems/distributed-cache.md
+          - Recommendation System: hld/problems/recommendation-system.md
   - LLD:
       - Overview: lld/index.md
+      - Fundamentals:
+          - OOP: lld/fundamentals/oop.md
+          - SOLID: lld/fundamentals/solid.md
+          - Design Patterns: lld/fundamentals/design-patterns.md
+          - UML & Code Quality: lld/fundamentals/uml-code-quality.md
+      - Problems:
+          - Parking Lot: lld/problems/parking-lot.md
+          - Library System: lld/problems/library-system.md
+          - Elevator: lld/problems/elevator.md
+          - Chess: lld/problems/chess.md
+          - Hotel Booking: lld/problems/hotel-booking.md
+          - Movie Booking: lld/problems/movie-booking.md
+          - ATM: lld/problems/atm.md
+          - Vending Machine: lld/problems/vending-machine.md
+          - Social Network: lld/problems/social-network.md
+          - File System: lld/problems/file-system.md
+          - Restaurant: lld/problems/restaurant.md
+          - Ride Sharing: lld/problems/ride-sharing.md
+          - Music Streaming: lld/problems/music-streaming.md
+          - Online Shopping: lld/problems/online-shopping.md
+          - Snake & Ladder: lld/problems/snake-and-ladder.md
+          - Car Rental: lld/problems/car-rental.md
+          - Meeting Scheduler: lld/problems/meeting-scheduler.md
+          - URL Shortener (LLD): lld/problems/url-shortener.md
+          - Notification System (LLD): lld/problems/notification-system.md
+          - LRU Cache: lld/problems/lru-cache.md
   - DSA Design:
       - Overview: dsa-design/index.md
+      - By Category:
+          - Cache & Memory: dsa-design/by-category/cache-memory.md
+          - Search & Autocomplete: dsa-design/by-category/search-autocomplete.md
+          - Rate Limiting & Counting: dsa-design/by-category/rate-limiting-counting.md
+          - Scheduling & Priority: dsa-design/by-category/scheduling-priority.md
+          - Ranking & Leaderboard: dsa-design/by-category/ranking-leaderboard.md
+          - Graph & Network: dsa-design/by-category/graph-network.md
+          - String & Pattern: dsa-design/by-category/string-pattern.md
+          - Game & Simulation: dsa-design/by-category/game-simulation.md
+          - Data Stream: dsa-design/by-category/data-stream.md
+          - Allocation & Resource: dsa-design/by-category/allocation-resource.md
+      - Problems:
+          - LRU Cache: dsa-design/problems/lru-cache.md
+          - LFU Cache: dsa-design/problems/lfu-cache.md
+          - Time-Based Key-Value Store: dsa-design/problems/time-based-kv-store.md
+          - In-Memory File System: dsa-design/problems/in-memory-file-system.md
+          - Browser History: dsa-design/problems/browser-history.md
+          - Search Autocomplete: dsa-design/problems/search-autocomplete.md
+          - Add and Search Words: dsa-design/problems/add-search-words.md
+          - Word Dictionary: dsa-design/problems/word-dictionary.md
+          - Phone Directory: dsa-design/problems/phone-directory.md
+          - Spell Checker: dsa-design/problems/spell-checker.md
+          - Rate Limiter: dsa-design/problems/rate-limiter.md
+          - Hit Counter: dsa-design/problems/hit-counter.md
+          - Logger Rate Limiter: dsa-design/problems/logger-rate-limiter.md
+          - Moving Average: dsa-design/problems/moving-average.md
+          - Leaky Bucket: dsa-design/problems/leaky-bucket.md
+          - Task Scheduler: dsa-design/problems/task-scheduler.md
+          - Meeting Scheduler: dsa-design/problems/meeting-scheduler.md
+          - Meeting Rooms II: dsa-design/problems/meeting-rooms-ii.md
+          - CPU Task Scheduler: dsa-design/problems/cpu-task-scheduler.md
+          - Stock Price Ticker: dsa-design/problems/stock-price-ticker.md
+          - Leaderboard: dsa-design/problems/leaderboard.md
+          - Top K Frequent: dsa-design/problems/top-k-frequent.md
+          - Median Finder: dsa-design/problems/median-finder.md
+          - Sliding Window Max: dsa-design/problems/sliding-window-max.md
+          - Range Sum Query: dsa-design/problems/range-sum-query.md
+          - Graph Shortest Path: dsa-design/problems/graph-shortest-path.md
+          - Social Network Connection: dsa-design/problems/social-network-connection.md
+          - Underground System: dsa-design/problems/underground-system.md
+          - Word Ladder: dsa-design/problems/word-ladder.md
+          - Network Delay Time: dsa-design/problems/network-delay-time.md
+          - Encode/Decode Strings: dsa-design/problems/encode-decode-strings.md
+          - Compressed String Iterator: dsa-design/problems/compressed-string-iterator.md
+          - Text Editor Undo/Redo: dsa-design/problems/text-editor-undo-redo.md
+          - Logger w/ Timestamp Ordering: dsa-design/problems/logger-timestamp-ordering.md
+          - Snapshot Array: dsa-design/problems/snapshot-array.md
+          - Snake Game: dsa-design/problems/snake-game.md
+          - Tic-Tac-Toe: dsa-design/problems/tic-tac-toe.md
+          - 2048 Game: dsa-design/problems/2048-game.md
+          - Minesweeper: dsa-design/problems/minesweeper.md
+          - Card Shuffle: dsa-design/problems/card-shuffle.md
+          - Stream of Characters: dsa-design/problems/stream-of-characters.md
+          - Disjoint Intervals: dsa-design/problems/disjoint-intervals.md
+          - Find Median from Stream: dsa-design/problems/find-median-stream.md
+          - Kth Largest in Stream: dsa-design/problems/kth-largest-stream.md
+          - Find Peak Element: dsa-design/problems/find-peak-element.md
+          - Parking System: dsa-design/problems/parking-system.md
+          - Seat Reservation: dsa-design/problems/seat-reservation.md
+          - Number Allocator: dsa-design/problems/number-allocator.md
+          - Unique ID Generator: dsa-design/problems/unique-id-generator.md
+          - Phone Number to Words: dsa-design/problems/phone-number-to-words.md
   - NeetCode 150:
       - Overview: neetcode-150/index.md
+      - Topics:
+          - Arrays & Hashing: neetcode-150/topics/arrays-hashing.md
+          - Two Pointers: neetcode-150/topics/two-pointers.md
+          - Stack: neetcode-150/topics/stack.md
+          - Binary Search: neetcode-150/topics/binary-search.md
+          - Sliding Window: neetcode-150/topics/sliding-window.md
+          - Linked List: neetcode-150/topics/linked-list.md
+          - Trees: neetcode-150/topics/trees.md
+          - Tries: neetcode-150/topics/tries.md
+          - Backtracking: neetcode-150/topics/backtracking.md
+          - Heap / Priority Queue: neetcode-150/topics/heap-priority-queue.md
+          - Graphs: neetcode-150/topics/graphs.md
+          - 1-D DP: neetcode-150/topics/1d-dp.md
+          - Intervals: neetcode-150/topics/intervals.md
+          - Greedy: neetcode-150/topics/greedy.md
+          - Advanced Graphs: neetcode-150/topics/advanced-graphs.md
+          - 2-D DP: neetcode-150/topics/2d-dp.md
+          - Bit Manipulation: neetcode-150/topics/bit-manipulation.md
+          - Math & Geometry: neetcode-150/topics/math-geometry.md
